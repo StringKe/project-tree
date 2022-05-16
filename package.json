@@ -3,7 +3,7 @@
     "displayName": "project-source-tree",
     "publisher": "stringke",
     "description": "A vscode plugin that generates a tree directory in README.md.",
-    "version": "0.4.0",
+    "version": "0.4.1",
     "icon": "images/tree-icon.jpg",
     "repository": "https://github.com/StringKe/project-tree",
     "keywords": [

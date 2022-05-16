@@ -82,6 +82,8 @@ export function verify(
         return false;
     }
     const ignore: boolean = ignoreRegs.some((reg: RegExp) => reg.test(path));
-    return ignore;
+    // check is .tree file
+    const isDotTreeFile = /\.tree$/.test(name);
+    return ignore || isDotTreeFile;
     // return !~ignoreList.indexOf(name);
 }
