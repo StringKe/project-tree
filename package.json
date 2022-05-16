@@ -1,6 +1,6 @@
 {
-    "name": "project-tree",
-    "displayName": "project-tree",
+    "name": "project-source-tree",
+    "displayName": "project-source-tree",
     "publisher": "stringke",
     "description": "A vscode plugin that generates a tree directory in README.md.",
     "version": "0.4.0",
